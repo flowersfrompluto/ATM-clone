@@ -1,0 +1,47 @@
+* {Margin: 0; padding: 0; box-sizing: border-box;}
+* {font-family: 'Rubik', sans-serif;}
+
+
+/* HOMEPAGE HERE */
+
+.home {width: 100%; display: block; align-items: center; /* background: linear-gradient(45deg, #184cc3, cornflowerblue, #9999ff);*/ padding-top: 10px; padding-bottom: 178px; background-repeat: no-repeat; background-position: center; background-size: border-box; justify-content: space-between; text-align: center; color: steelblue; background-image: url(../img/logo-Copy.png);}
+.home .logo {width: 15%;}
+.home .logo img {width: 20%; object-fit: contain;}
+.home .bank h1 {font-size: 50px;}
+.home .text1 {text-decoration: none;}
+.home .text1 h2 {font-weight: 300; font-size: 25px;}
+.home .text1 a {text-decoration: none;}
+.home .text1 .button {width: 10%;}
+.home .text1 .button h3 {background-color: cornflowerblue; width: 15%; padding: 15px; border-radius: 10px; color: aliceblue; margin: auto;}
+
+.home .text1 .button h3:hover {background: linear-gradient(45deg, #184cc3, tomato, #9999ff); font-style: italic;}
+
+
+/* PAGE 2 HERE */
+
+.pin .logo {width: 15%;}
+.pin .logo img {width: 20%; object-fit: contain;}
+.pin {width: 100%; display: block; align-items: center; background: linear-gradient(45deg, #184cc3, cornflowerblue, #9999ff); padding-top: 15px; padding-bottom: 178px; background-repeat: no-repeat; background-position: center; background-size: border-box; justify-content: space-between; text-align: center; color: white;}
+.pin .text1 {width: 70%; font-size: 35px; margin: auto;}
+.pin .pin {width: 50%; font-size: 30px; height: 100px;}
+.pin .pin .password {height: 100px; width: 100px; font-size: 30px;}
+.pin .text2 {width: 40%; margin: auto;}
+.pin .text2 a {text-decoration: none; color: white;}
+.pin .text2 h3 {width: 40%; margin: auto; background-color: yellowgreen; padding: 10px; border-radius: 10px}
+
+.pin .text2 h3:hover {border: 1px solid tomato; border-radius: 10px; background-color: palegoldenrod; color: #184cc3;}
+
+
+/* PAGE 3 HERE */
+
+.service {width: 100%; display:block; align-items: center; background: linear-gradient(45deg, #184cc3, cornflowerblue, #9999ff); padding-top: 15px; padding-bottom: 89px; background-repeat: no-repeat; background-position: center; background-size: border-box; justify-content: space-between; text-align: center; color: white;}
+.service .text1 {font-size: 25px; font-weight: 600;}
+.service .buttons {width: 100%; display: grid; grid-template-columns: auto auto; grid-gap: 25px;}
+.service .buttons a {text-decoration: none; color: white; padding: 30px; background-color: yellowgreen; width: 70%; margin: auto; justify-content: space-between; border-radius: 15px;}
+.service .end {width: 40%; margin: auto;}
+.service .end a {text-decoration: none; color: white;}
+.service .end h3 {width: 30%; background-color: tomato; border-radius: 10px; padding: 15px; margin: auto;}
+
+.service .buttons a:hover {border: 1px solid tomato; border-radius: 10px; background-color: palegoldenrod; color: #184cc3;}
+
+.service .end a h3:hover {background-color: red; color: yellow; border-radius: 10px; }
