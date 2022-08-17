@@ -21,7 +21,7 @@
 
 .pin .logo {width: 15%;}
 .pin .logo img {width: 20%; object-fit: contain;}
-.pin {width: 100%; display: block; align-items: center; background: linear-gradient(45deg, #184cc3, cornflowerblue, #9999ff); padding-top: 15px; padding-bottom: 178px; background-repeat: no-repeat; background-position: center; background-size: border-box; justify-content: space-between; text-align: center; color: white;}
+.pin {width: 100%; display: block; align-items: center; background: linear-gradient(45deg, #184cc3, cornflowerblue, #9999ff); padding-top: 15px; padding-bottom: 167px; background-repeat: no-repeat; background-position: center; background-size: border-box; justify-content: space-between; text-align: center; color: white;}
 .pin .text1 {width: 70%; font-size: 35px; margin: auto;}
 .pin .pin {width: 50%; font-size: 30px; height: 100px;}
 .pin .pin .password {height: 100px; width: 100px; font-size: 30px;}
@@ -34,14 +34,77 @@
 
 /* PAGE 3 HERE */
 
-.service {width: 100%; display:block; align-items: center; background: linear-gradient(45deg, #184cc3, cornflowerblue, #9999ff); padding-top: 15px; padding-bottom: 89px; background-repeat: no-repeat; background-position: center; background-size: border-box; justify-content: space-between; text-align: center; color: white;}
+.service {width: 100%; display:block; align-items: center; background: linear-gradient(45deg, #184cc3, cornflowerblue, #9999ff); padding: 85px; background-repeat: no-repeat; background-position: center; background-size: border-box; justify-content: center; text-align: center; color: white; align-items: center;}
 .service .text1 {font-size: 25px; font-weight: 600;}
 .service .buttons {width: 100%; display: grid; grid-template-columns: auto auto; grid-gap: 25px;}
-.service .buttons a {text-decoration: none; color: white; padding: 30px; background-color: yellowgreen; width: 70%; margin: auto; justify-content: space-between; border-radius: 15px;}
+.service .buttons a {text-decoration: none; color: white; padding: 25px; background-color: yellowgreen; width: 70%; margin: auto; justify-content: space-between; border-radius: 15px;}
 .service .end {width: 40%; margin: auto;}
 .service .end a {text-decoration: none; color: white;}
 .service .end h3 {width: 30%; background-color: tomato; border-radius: 10px; padding: 15px; margin: auto;}
-
 .service .buttons a:hover {border: 1px solid tomato; border-radius: 10px; background-color: palegoldenrod; color: #184cc3;}
+.service .end a h3:hover {background-color: red; color: yellow; border-radius: 10px;}
 
-.service .end a h3:hover {background-color: red; color: yellow; border-radius: 10px; }
+
+/* PAGE 4 HERE */
+
+.account_type {width: 100%; display:block; align-items: center; background: linear-gradient(45deg, #184cc3, cornflowerblue, #9999ff); padding: 117px; background-repeat: no-repeat; background-position: center; background-size: border-box; justify-content: center; text-align: center; color: white; align-items: center;}
+.account_type .text1 {font-size: 25px; font-weight: 600;}
+.account_type .buttons {width: 100%; display: grid; grid-template-columns: auto auto; grid-gap: 25px;}
+.account_type .buttons a {text-decoration: none; color: white; padding: 25px; background-color: yellowgreen; width: 70%; margin: auto; justify-content: space-between; border-radius: 15px;}
+.account_type .end {width: 40%; margin: auto;}
+.account_type .end a {text-decoration: none; color: white;}
+.account_type .end h3 {width: 30%; background-color: tomato; border-radius: 10px; padding: 15px; margin: auto;}
+.account_type .buttons a:hover {border: 1px solid tomato; border-radius: 10px; background-color: palegoldenrod; color: #184cc3;}
+.account_type .end a h3:hover {background-color: red; color: yellow; border-radius: 10px;}
+
+
+/* PAGE 5 HERE */
+
+.amount {width: 100%; display:block; align-items: center; background: linear-gradient(45deg, #184cc3, cornflowerblue, #9999ff); padding: 33px; background-repeat: no-repeat; background-position: center; background-size: border-box; justify-content: center; text-align: center; color: white; align-items: center;}
+.amount .text1 {font-size: 25px; font-weight: 600;}
+.amount .buttons {width: 100%; display: grid; grid-template-columns: auto auto; grid-gap: 25px;}
+.amount .buttons a {text-decoration: none; color: white; padding: 25px; background-color: yellowgreen; width: 70%; margin: auto; justify-content: space-between; border-radius: 15px;}
+.amount .end {width: 40%; margin: auto;}
+.amount .end a {text-decoration: none; color: white;}
+.amount .end h3 {width: 30%; background-color: tomato; border-radius: 10px; padding: 15px; margin: auto;}
+.amount .buttons a:hover {border: 1px solid tomato; border-radius: 10px; background-color: palegoldenrod; color: #184cc3;}
+.amount .end a h3:hover {background-color: red; color: yellow; border-radius: 10px;}
+
+/* PAGE 6 HERE */
+
+.print {width: 100%; display:block; align-items: center; background: linear-gradient(45deg, #184cc3, cornflowerblue, #9999ff); padding: 166px; background-repeat: no-repeat; background-position: center; background-size: border-box; justify-content: center; text-align: center; color: white; align-items: center;}
+.print .text1 {font-size: 25px; font-weight: 600;}
+.print .buttons {width: 100%; display: grid; grid-template-columns: auto auto; grid-gap: 25px;}
+.print .buttons a {text-decoration: none; color: white; padding: 25px; background-color: yellowgreen; width: 70%; margin: auto; justify-content: space-between; border-radius: 15px;}
+.print .buttons a:hover {border: 1px solid tomato; border-radius: 10px; background-color: palegoldenrod; color: #184cc3;}
+
+
+/* PAGE 7 HERE */
+
+.success {width: 100%; display:block; align-items: center; background: linear-gradient(45deg, #184cc3, cornflowerblue, #9999ff); padding: 114px; background-repeat: no-repeat; background-position: center; background-size: border-box; justify-content: center; text-align: center; color: white; align-items: center;}
+.success .text1 {font-size: 25px; font-weight: 600;}
+.success .buttons {width: 80%; display: flex; margin: auto; }
+.success .buttons a {text-decoration: none; color: white; padding: 25px; background-color: yellowgreen; width: 20%; margin: auto; justify-content: space-between; border-radius: 15px;}
+.success .buttons a:hover {border: 1px solid tomato; border-radius: 10px; background-color: palegoldenrod; color: #184cc3;}
+
+
+/* PAGE 8 HERE */
+
+.continue {width: 100%; display:block; align-items: center; background: linear-gradient(45deg, #184cc3, cornflowerblue, #9999ff); padding: 119px; background-repeat: no-repeat; background-position: center; background-size: border-box; justify-content: center; text-align: center; color: white; align-items: center;}
+.continue .text1 {font-size: 25px; font-weight: 600;}
+.continue .buttons {width: 80%; display: flex; margin: auto;}
+.continue .buttons a {text-decoration: none; color: white; padding: 25px; background-color: yellowgreen; width: 20%; margin: auto; justify-content: space-between; border-radius: 15px;}
+.continue .buttons a:hover {border: 1px solid tomato; border-radius: 10px; background-color: palegoldenrod; color: #184cc3;}
+
+
+
+/* PAGE 9 HERE */
+
+.finish {width: 100%; display:block; align-items: center; background: linear-gradient(45deg, #184cc3, cornflowerblue, #9999ff); padding-top: 10px; padding-bottom: 144px; background-repeat: no-repeat; background-position: center; background-size: border-box; justify-content: center; text-align: center; color: white; align-items: center;}
+.finish .logo {width: 15%;}
+.finish .logo img {width: 20%; object-fit: contain;}
+.finish .text1 h1 {font-size: 45px; font-weight: 600;}
+.finish .text1 h3 {font-size: 20px; font-weight: 600;}
+.finish .buttons {width: 80%; display: flex; margin: auto; }
+.finish .buttons a {text-decoration: none; color: white; padding: 15px; background-color: yellowgreen; width: 20%; margin: auto; justify-content: space-between; border-radius: 15px;}
+.finish .buttons a:hover {border: 1px solid tomato; border-radius: 10px; background-color: gainsboro; color: #184cc3;}
